@@ -38,5 +38,7 @@ hash_table.insert(753, "grape")   # Collision with index 3
 print("Search 213:", hash_table.search(213))  # Output: Search 213: banana
 print("Search 543:", hash_table.search(543))  # Output: Search 543: orange
 
+print('before deletion:', hash_table.table)
 hash_table.delete(432)
+hash_table.delete(101)
 print("After removal:", hash_table.table)
